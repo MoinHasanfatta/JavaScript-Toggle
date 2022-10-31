@@ -1,0 +1,44 @@
+body {
+    background-color: blue;
+    color: white;
+}
+
+.main h1 {
+    background-color: black;
+    text-align: center;
+}
+
+.main h1:hover {
+    background-color: yellow;
+    color: black;
+    font-style: italic;
+}
+
+#show {
+    margin: 20px 580px;
+    padding: 0.6rem;
+    border-radius: 22px;
+    color: green;
+    cursor: pointer;
+    transition-property: all;
+    transition-duration: 0.3s;
+}
+
+#show:hover {
+    background-color: purple;
+    color: lightsalmon;
+    font-size: larger;
+    
+}
+.hide{
+    display: none;
+    
+}
+
+#icons {
+    display: flex;
+    justify-content: center;
+    font-size: xx-large;
+    background-color: lightcoral;
+   
+}
